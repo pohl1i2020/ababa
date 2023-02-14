@@ -1,0 +1,30 @@
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+	width: 80%;
+	margin: 1rem auto;
+}
+form {
+	padding: 1rem;
+	box-shadow: 0 0 4px ;
+	text-align-last: center;
+}
+form > label {
+	display: block;
+	margin: 0.5rem;
+}
+fieldset{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+	align-items: center;
+	justify-content: space-evenly;
+	margin: 1rem 0;
+	padding: 1rem;
+	border-radius: 0.5rem;
+}
+[type='radio'],
+[type='checkbox'] {
+	margin-right: 1rem;
+}
